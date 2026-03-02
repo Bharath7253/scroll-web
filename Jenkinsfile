@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'bharath7253/bharath7253'
+        DOCKER_IMAGE = 'bharath7253/cicd-project'
         DEPLOY_FILE  = 'deploy.yaml'
-        DOMAIN       = 'micro123.duckdns.org'
+        DOMAIN       = 'cicdproject123.duckdns.org'
     }
 
     stages {
@@ -114,6 +114,7 @@ pipeline {
         }
     }
 }
+
 
 
 
